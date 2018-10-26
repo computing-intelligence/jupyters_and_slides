@@ -1,3 +1,6 @@
+__author__ = 'mqgao'
+__date__  = '2018.Sept.30'
+
 RIGHT, LEFT, UP, DOWN = (1, 0), (-1, 0), (0, 1), (0, -1)
 
 
@@ -35,25 +38,27 @@ def get_sprial_distance(steps): return block_distance(*move_by_sprial(steps)[ste
 
 def draw_sprial(steps):
     """
-    Draws a sprial memory, e.g 
+    Draws a sprial memory, e.g
 
-	17	16	15	14	13	
-	18	5	4	3	12	
-	19	6	1	2	11	
-	20	7	8	9	10	
-	21	
+    17	16	15	14	13
+    18	5	4	3	12
+    19	6	1	2	11
+    20	7	8	9	10
+    21
 
     """
-    coordination = move_by_sprial(steps)
-    coordination_num_map = {(x, y) : i + 1 for i, (x, y) in enumerate(coordination)}
+    coordination = list(enumerate(move_by_sprial(steps)))  # change [(0, 0), (1, 0), ..] to [(0, (0, 0), (1, (1, 0)))]
 
-    coordination = sorted(coordination, key=lambda x_y: (x_y[1], -x_y[0]), reverse=True)
+    def sort_from_left_upper_to_right_down(index_x_y): return index_x_y[1][1], -index_x_y[1][0]
+    # this function is cascade sort, ref: https://stackoverflow.com/questions/4233476/sort-a-list-by-multiple-attributes
+
+    coordination = sorted(coordination, key=sort_from_left_upper_to_right_down, reverse=True)
 
     previous_x, previous_y = coordination[0]
 
-    for (x, y) in coordination:
+    for i, (x, y) in coordination:
         if y != previous_y: print('')
-        print(str(coordination_num_map[(x, y)]) + '\t'*(steps//1000+1), end='')
+        print(str(i) + '\t'*(steps//1000+1), end='')
         previous_x, previous_y = x, y
 
 
@@ -71,3 +76,4 @@ print('*'*8)
 draw_sprial(100)
 print('*'*8)
 draw_sprial(1000)
+
