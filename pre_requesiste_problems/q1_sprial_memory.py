@@ -34,6 +34,16 @@ def get_sprial_distance(steps): return block_distance(*move_by_sprial(steps)[ste
 
 
 def draw_sprial(steps):
+    """
+    Draws a sprial memory, e.g 
+
+	17	16	15	14	13	
+	18	5	4	3	12	
+	19	6	1	2	11	
+	20	7	8	9	10	
+	21	
+
+    """
     coordination = move_by_sprial(steps)
     coordination_num_map = {(x, y) : i + 1 for i, (x, y) in enumerate(coordination)}
 
