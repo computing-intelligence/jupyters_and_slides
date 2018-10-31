@@ -58,7 +58,7 @@ def draw_sprial(steps):
 
     for i, (x, y) in coordination:
         if y != previous_y: print('')
-        print(str(i) + '\t'*(steps//1000+1), end='')
+        print(str(i+1) + '\t'*(steps//1000+1), end='')
         previous_x, previous_y = x, y
 
 
