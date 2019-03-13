@@ -17,11 +17,10 @@ def get_simple_factors(n):
     if n in simple_words: return [n]
 
     for s in simple_words:
-        could_be_divided = (n % s == 0)
-        remain = n / s
+        could_be_divided, remain = (n % s == 0), n / s
 
         if could_be_divided and get_simple_factors(remain):
-            return [s] + get_simple_factors(n / s)
+            return [s] + get_simple_factors(remain)
 
     return None
 
