@@ -79,18 +79,19 @@
 [ ] D. 卷积神经网络中，权值参数的初始化并不会很大程序上影响模型的拟合能力
 ```
 
-#### Question6: 在Pandas中，一个CSV文件读取之后会存储成一个:
+#### Question6:关于词向量(word Vector)的描述，正确的是？
 
-![](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3843036270,64649884&fm=26&gp=0.jpg)
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562846589069&di=5e6fafde2a15a894208bb3ecc1c12a86&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170803%2Fec65ba9b93bc4a9aa373aaddbd1a6408_th.jpg)
+
 
 ``` 
-[ ] A. Dataframe;
+[ ] A. 词向量的目标是把意思相近的单词变成向量空间距离接近的向量集合； 
 
-[ ] B. Vector; 
+[ ] B. 训练词向量需要对单词的相似度进行打标，进行监督学习；
 
-[ ] C. Panel;
+[ ] C. 训练词向量时，包含的单词种类越多，训练的单词聚类效果越好；
 
-[ ] D. 全都不是
+[ ] D. 随着人工智能技术的快速发展，目前词向量能够比较好的解决一词多义问题；
 ```
 
 #### Qustion7: 关于深度学习与GPU之间关系的描述，错误的是？
