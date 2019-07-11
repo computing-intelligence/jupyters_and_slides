@@ -81,7 +81,7 @@
 
 #### Question6: 在Pandas中，一个CSV文件读取之后会存储成一个:
 
-![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562846589069&di=5e6fafde2a15a894208bb3ecc1c12a86&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170803%2Fec65ba9b93bc4a9aa373aaddbd1a6408_th.jpg)
+![](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3843036270,64649884&fm=26&gp=0.jpg)
 
 ``` 
 [ ] A. Dataframe;
