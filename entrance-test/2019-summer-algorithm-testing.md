@@ -4,6 +4,8 @@
 
 
 #### 1 下面不是C++的保留字的是:
+
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562866170670&di=93cda0bc9c1715ddcc1e9bb85ffb06d1&imgtype=0&src=http%3A%2F%2Fwww.62a.net%2Ftbimg%2Fimg02%2Fbao%2Fuploaded%2Fi3%2FTB1dv1eHFXXXXbJXXXXXXXXXXXX_%2521%25210-item_pic.jpg_290x290.jpg)
 ```
 [ ] A double
 [ ] B break
@@ -20,6 +22,9 @@
 ```
 
 #### 3 下面循环语句书写正确的是:
+
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562866246695&di=98dd35c6e941fd7d5e98bc4fe6818491&imgtype=0&src=http%3A%2F%2Fimg.aso.aizhan.com%2Ficon%2F36%2F9b%2F6a%2F369b6a4ad8ed6187682448d5a62cf093.jpg)
+
 ```
 [ ] A 
 for(int i = 0, i < n, ++i)
@@ -72,6 +77,8 @@ if(b-- || c--) a = 0;
 ```
 
 #### 7 冒泡排序的时间复杂度是：
+![](https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2123267923,1425594043&fm=26&gp=0.jpg)
+
 ```
 [ ] A O(n)
 [ ] B O(nlogn)
@@ -80,6 +87,7 @@ if(b-- || c--) a = 0;
 ```
 	
 #### 8 栈是一种____的数据结构，队列是一种____的数据结构
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562866469924&di=84a57dd4ca26c9896d106894584e15c8&imgtype=0&src=http%3A%2F%2Fdpic.tiankong.com%2Fcd%2Fxk%2FQJ6304626887.jpg)
 ```
 [ ] A 先进先出  先进先出	
 [ ] B 先进先出  先进后出
@@ -88,6 +96,7 @@ if(b-- || c--) a = 0;
 ```
 	
 #### 9 下面哪一个算法是图论相关算法:
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563461212&di=b4230a6ac9549c56120d01c2b254120b&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.tomrrow.com%2F2016%2F05%2Fimage.png)
 ```
 [ ] A Dijskra
 [ ] B Heapsort
