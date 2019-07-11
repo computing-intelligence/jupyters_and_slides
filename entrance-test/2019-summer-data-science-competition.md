@@ -5,6 +5,7 @@
 
 #### Question1: 目前常用的贝叶斯分类方法，我们往往称为朴素贝叶斯分类（Naive Bayes Classification）。 该分类器之所以叫“朴素”贝叶斯的原因是：
 
+`--- by 开课吧人工智能学院 2019.July`
 
 
 ![image.png](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563440941&di=2ebd7b5a1c2b6b657a96e44df13f84db&imgtype=jpg&er=1&src=http%3A%2F%2Fi2.wp.com%2Fwww.scienceprog.com%2Fwp-content%2Fuploads%2F2016%2F07%2FThomas_Bayes.png%3Fresize%3D468%2C308)
