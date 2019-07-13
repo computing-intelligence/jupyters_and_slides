@@ -11,7 +11,7 @@
 
 #### 1. 参考资料
 
-本学院整理收集了世界上口碑盛誉的Python编程、机器学习、人工智能资料，存放在: 
+本学院整理收集了世界上口碑盛誉的Python编程、机器学习、人工智能资料，存放在: https://github.com/Computing-Intelligence/References
 
 #### 2. Python编程指导
 
