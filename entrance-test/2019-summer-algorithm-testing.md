@@ -28,7 +28,7 @@
 
 #### 3 下面循环语句书写正确的是:
 
-![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562866246695&di=98dd35c6e941fd7d5e98bc4fe6818491&imgtype=0&src=http%3A%2F%2Fimg.aso.aizhan.com%2Ficon%2F36%2F9b%2F6a%2F369b6a4ad8ed6187682448d5a62cf093.jpg)
+![](images/loop.png)
 
 ```
 [ ] A 
