@@ -127,13 +127,13 @@
     import operator as op
     
     D = {1: 0, 2: 3}
-    sorted(D.items(), key=lambda x: op.getitem(x, 0))
+    sorted(D.items(), key=lambda x: op.getitem(x, 1))
 ```
 
 ```
 [] B. 
     D = {1: 0, 2: 3}
-    sorted(D.items(), key=lambda x: x[0])
+    sorted(D.items(), key=lambda x: x[1])
 ```
 
 ```
