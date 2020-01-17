@@ -28,7 +28,7 @@
 
 #### 3 下面循环语句书写正确的是:
 
-![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562866246695&di=98dd35c6e941fd7d5e98bc4fe6818491&imgtype=0&src=http%3A%2F%2Fimg.aso.aizhan.com%2Ficon%2F36%2F9b%2F6a%2F369b6a4ad8ed6187682448d5a62cf093.jpg)
+![](images/loop.png)
 
 ```
 [ ] A 
@@ -126,7 +126,7 @@ if(b-- || c--) a = 0;
 6. C 
 7. C
 8. A
-9. D
+9. A
 10. B
 
 ### 因为我们的课程是针对有一定基础的同学，如果你能回答对5个或者以上，则具备参加课程的能力。所以，你做对了吗？ 如果做对了，请联系我们的教务开始进行正式付费，谢谢。
