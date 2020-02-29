@@ -1,9 +1,5 @@
-from jieba import posseg
-
-
 def remove_mark(s):
-    return ''.join([t.word for t in posseg.cut(s) if t.flag != 'x'])
-
+    return ''.join([t for t in s if t.isalpha()])
 
 def begin_duplicate(tokens):
     for f in range(1, len(tokens)):
